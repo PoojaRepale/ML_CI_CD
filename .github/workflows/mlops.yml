@@ -44,7 +44,7 @@ jobs:
 
             # step 7 : Upload the train model as artifact
             - name: Upload model artifact
-              uses: actions/upload-art-fact@v4
+              uses: actions/upload-artifact@v4
 
               with:
                 name: trained-model
